@@ -3,7 +3,7 @@
   "name": "中文 (Chinese)",
   "version": "1.0.0",
   "description": "Simplified and Traditional Chinese translations for the kojo dashboard.",
-  "kojoVersion": ">=0.128.0",
+  "kojoVersion": ">=0.127.0",
   "contributes": {
     "locales": [
       { "tag": "zh-Hans", "name": "简体中文", "file": "locales/zh-Hans.json" },
