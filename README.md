@@ -1,27 +1,52 @@
-# kojo 中文语言包 / kojo Chinese language pack
+# kojo 中文语言包 / kojo 中文語言包 / kojo Chinese language pack
 
-kojo ダッシュボードの UI を簡体字・繁体字中国語で表示する拡張パッケージ。
-コードは含まない。翻訳カタログ (JSON) だけを提供する。
+## 简体中文
 
-## 内容
+kojo 仪表盘的简体中文与繁体中文界面翻译扩展包。不含任何代码，只提供 JSON 翻译目录。
 
-| tag | 表示名 | ファイル |
+| 标签 | 名称 | 文件 |
 | --- | --- | --- |
 | zh-Hans | 简体中文 | `locales/zh-Hans.json` |
 | zh-Hant | 繁體中文 | `locales/zh-Hant.json` |
 
-翻訳済みは `common.*` / `dash.*` / `gs.*` の 135 キー。
-未訳のキーは英語にフォールバックする。
+已翻译 `common.*` / `dash.*` / `gs.*` 共 135 个键。未翻译的键回退为英文。
 
-## 必要条件
+需要 kojo v0.128.0 或更高版本。
 
-kojo v0.128.0 以降。それより前の kojo には拡張から言語を足す仕組みがない。
+安装：全局设置 → 扩展 → 填入本仓库地址 → 确认内容 → 安装。之后在 全局设置 → 语言 中选择「简体中文」或「繁體中文」。
 
-## 導入
+本扩展不请求任何权限，`scopes` 为空，不调用 kojo API。
 
-全体設定 → 拡張機能 → このリポジトリの URL を入力 → 内容を確認 → 承認して導入。
-そのあと全体設定 → 言語 で「简体中文」「繁體中文」を選べる。
+## 繁體中文
 
-## 権限
+kojo 儀表板的簡體中文與繁體中文介面翻譯擴充套件。不含任何程式碼，只提供 JSON 翻譯目錄。
 
-なし。`scopes` は空で、kojo API を一切呼ばない。
+| 標籤 | 名稱 | 檔案 |
+| --- | --- | --- |
+| zh-Hans | 简体中文 | `locales/zh-Hans.json` |
+| zh-Hant | 繁體中文 | `locales/zh-Hant.json` |
+
+已翻譯 `common.*` / `dash.*` / `gs.*` 共 135 個鍵。未翻譯的鍵回退為英文。
+
+需要 kojo v0.128.0 或更新版本。
+
+安裝：全域設定 → 擴充套件 → 填入本儲存庫網址 → 確認內容 → 安裝。之後在 全域設定 → 語言 中選擇「简体中文」或「繁體中文」。
+
+本擴充套件不請求任何權限，`scopes` 為空，不呼叫 kojo API。
+
+## English
+
+Simplified and Traditional Chinese UI translations for the kojo dashboard. No code — JSON message catalogues only.
+
+| Tag | Name | File |
+| --- | --- | --- |
+| zh-Hans | 简体中文 | `locales/zh-Hans.json` |
+| zh-Hant | 繁體中文 | `locales/zh-Hant.json` |
+
+135 keys across `common.*`, `dash.*` and `gs.*` are translated. Keys the catalogues omit fall back to English.
+
+Requires kojo v0.128.0 or later.
+
+Install: Global settings → Extensions → paste this repository's URL → review what it contributes → install. Then pick 简体中文 or 繁體中文 under Global settings → Language.
+
+The package requests no permissions: `scopes` is empty and it never calls the kojo API.
