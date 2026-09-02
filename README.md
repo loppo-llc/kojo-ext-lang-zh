@@ -17,6 +17,8 @@ kojo 仪表盘的简体中文与繁体中文界面翻译扩展包。不含任何
 
 本扩展不请求任何权限，`scopes` 为空，不调用 kojo API。
 
+许可证：MIT，与 kojo 本体一致。详见 [LICENSE](LICENSE)。
+
 ## 繁體中文
 
 kojo 儀表板的簡體中文與繁體中文介面翻譯擴充套件。不含任何程式碼，只提供 JSON 翻譯目錄。
@@ -34,6 +36,8 @@ kojo 儀表板的簡體中文與繁體中文介面翻譯擴充套件。不含任
 
 本擴充套件不請求任何權限，`scopes` 為空，不呼叫 kojo API。
 
+授權條款：MIT，與 kojo 本體一致。詳見 [LICENSE](LICENSE)。
+
 ## English
 
 Simplified and Traditional Chinese UI translations for the kojo dashboard. No code — JSON message catalogues only.
@@ -50,3 +54,5 @@ Requires kojo v0.128.0 or later.
 Install: Global settings → Extensions → paste this repository's URL → review what it contributes → install. Then pick 简体中文 or 繁體中文 under Global settings → Language.
 
 The package requests no permissions: `scopes` is empty and it never calls the kojo API.
+
+Licensed under the MIT License, matching kojo itself. See [LICENSE](LICENSE).
