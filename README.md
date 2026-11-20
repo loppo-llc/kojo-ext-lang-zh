@@ -9,7 +9,7 @@ kojo 仪表盘的简体中文与繁体中文界面翻译扩展包。不含任何
 | zh-Hans | 简体中文 | `locales/zh-Hans.json` |
 | zh-Hant | 繁體中文 | `locales/zh-Hant.json` |
 
-已翻译 `common.*` / `dash.*` / `gs.*` 共 135 个键。未翻译的键回退为英文。
+已翻译 kojo 仪表盘的全部 871 个键（对应 kojo v0.149.0 之后的 main）。kojo 新增而本包尚未收录的键会回退为英文。
 
 需要 kojo v0.128.0 或更高版本。
 
@@ -28,7 +28,7 @@ kojo 儀表板的簡體中文與繁體中文介面翻譯擴充套件。不含任
 | zh-Hans | 简体中文 | `locales/zh-Hans.json` |
 | zh-Hant | 繁體中文 | `locales/zh-Hant.json` |
 
-已翻譯 `common.*` / `dash.*` / `gs.*` 共 135 個鍵。未翻譯的鍵回退為英文。
+已翻譯 kojo 儀表板的全部 871 個鍵（對應 kojo v0.149.0 之後的 main）。kojo 新增而本套件尚未收錄的鍵會回退為英文。
 
 需要 kojo v0.128.0 或更新版本。
 
@@ -47,7 +47,7 @@ Simplified and Traditional Chinese UI translations for the kojo dashboard. No co
 | zh-Hans | 简体中文 | `locales/zh-Hans.json` |
 | zh-Hant | 繁體中文 | `locales/zh-Hant.json` |
 
-135 keys across `common.*`, `dash.*` and `gs.*` are translated. Keys the catalogues omit fall back to English.
+All 871 dashboard keys are translated (as of kojo main after v0.149.0). Keys kojo adds later that the catalogues do not yet cover fall back to English.
 
 Requires kojo v0.128.0 or later.
 
