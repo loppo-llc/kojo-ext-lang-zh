@@ -349,6 +349,12 @@
   "media.next": "下一个",
   "media.videoUnplayable": "此视频格式无法在浏览器中播放。",
   "media.download": "下载",
+  "textPreview.raw": "源码",
+  "textPreview.rendered": "渲染",
+  "textPreview.binary": "无法以文本显示此文件。请下载后打开。",
+  "textPreview.loadFailed": "加载失败：{error}",
+  "textPreview.truncated": "仅显示前 {size}。完整内容请下载。",
+  "textPreview.tableTruncated": "表格过大，仅显示部分内容。完整内容请切换到源码或下载。",
 
   "stream.thinking": "思考中…",
   "stream.thought": "思考",
@@ -422,6 +428,7 @@
   "slackMig.manualBind": "如果还是失败，请在扩展设置中把 Slack 扩展包分配给此智能体，并重新输入令牌。",
 
   "attach.imageUnavailable": "图片不可用",
+  "attach.previewTitle": "预览 {name}",
   "attach.downloadTitle": "下载 {name}",
 
   "sched.modeOff": "关闭",

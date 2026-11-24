@@ -349,6 +349,12 @@
   "media.next": "下一個",
   "media.videoUnplayable": "此影片格式無法在瀏覽器中播放。",
   "media.download": "下載",
+  "textPreview.raw": "原始碼",
+  "textPreview.rendered": "呈現",
+  "textPreview.binary": "無法以文字顯示此檔案。請下載後開啟。",
+  "textPreview.loadFailed": "載入失敗：{error}",
+  "textPreview.truncated": "僅顯示前 {size}。完整內容請下載。",
+  "textPreview.tableTruncated": "表格過大，僅顯示部分內容。完整內容請切換到原始碼或下載。",
 
   "stream.thinking": "思考中…",
   "stream.thought": "思考",
@@ -422,6 +428,7 @@
   "slackMig.manualBind": "如果還是失敗，請在擴充功能設定中把 Slack 擴充套件指派給此代理，並重新輸入權杖。",
 
   "attach.imageUnavailable": "圖片無法使用",
+  "attach.previewTitle": "預覽 {name}",
   "attach.downloadTitle": "下載 {name}",
 
   "sched.modeOff": "關閉",
